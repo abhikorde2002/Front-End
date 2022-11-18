@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="payment1.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <div class="pay"><h1 class="main">Payment form</h1></div>
+        <hr />
+        <div><h2>User Information</h2></div>
+        <div><p>Required Information:*</p></div>
+        <div class="name">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            required
+            placeholder="Jack repar "
+          />
+        </div>
+        <br />
+        <div>
+          <label for="Female">Gender*:</label>
+          <span>
+            Male:<input type="radio" name="Gender" id="Male" /> Female:<input
+              type="radio"
+              name="Gender"
+              id="Female"
+            />
+          </span>
+        </div>
+        <br />
+        <div class="address">
+          Address:*
+          <textarea
+            name="address"
+            id="address"
+            cols="30"
+            rows="8"
+            required
+            placeholder="wright Address"
+          ></textarea>
+        </div>
+        <br />
+        <div>
+          Email:*
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+            placeholder="abs@gmail.com"
+          />
+        </div>
+        <br />
+        <div>
+          Pincode:*
+          <input
+            type="number"
+            name="pincode"
+            id="pincode"
+            required
+            placeholder="1234"
+          />
+        </div>
+        <br />
+        <hr />
+        <div><h1>Payment Information</h1></div>
+        <div>
+          Card Type:*
+          <select name="Card_Type" id="Card_Type" required>
+            <option value="">--Select a Card_Type</option>
+            <option value="visa">Visa</option>
+            <option value="Rupay">RuPay</option>
+            <option value="mastercard">Mastercard</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          Card Number:
+          <input
+            type="number"
+            name="number"
+            id="number"
+            required
+            placeholder="1111-2222-3333"
+          />
+        </div>
+        <br />
+        <div>
+          Card Expire Date
+          <input
+            type="date"
+            name="exp_date"
+            id="exp_date"
+            required
+            placeholder="20/30"
+          />
+        </div>
+        <br />
+        <div>
+          CVV:
+          <input
+            type="password"
+            name="CVV"
+            id="CVV"
+            required
+            placeholder="123"
+          />
+        </div>
+        <br />
+        <div class="pay_now">
+          <input type="submit" value="Pay Now" required />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

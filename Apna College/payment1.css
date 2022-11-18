@@ -1,0 +1,38 @@
+* {
+  box-sizing: content-box;
+}
+body {
+  background-color: rgb(29, 234, 53);
+}
+.pay {
+  text-align: center;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 20px 320px;
+  padding: 15px 20px;
+  font-size: 15px;
+}
+
+.container {
+  background-color: antiquewhite;
+  padding: 15px 20px;
+  border: 2px solid lightblue;
+  border-radius: 15px;
+  margin: 10px;
+  box-shadow: 2px 5px 10px black;
+}
+input[type="submit"]:hover {
+  background-color: rgb(231, 33, 11);
+}
+input[type="submit"] {
+  background-color: rgb(37, 182, 239);
+  color: black;
+}
+/* .pay_now {
+  background-color: red;
+  color: black;
+} */
+.address {
+  display: flex;
+}
