@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+            height: 40px;
+            width: 80px;      
+            text-align: center;
+          background-color: aqua;
+          border: 2px solid aqua;
+          border-radius: 8px;
+          transition:ease-in, height 4s,width 3s ,background-color 5s ;
+        }
+
+        input:hover{
+            width: 300px;
+            height: 200px;
+            background-color: red;
+            -ms-transform: rotate(360deg);
+            transform:ease-out 4s;
+        }
+    </style>
+</head>
+<body>
+    <script type="text/javascript">
+        function mul(num){
+            document.write(num+"*"+num +"=" +"4")
+        }
+    </script>
+    <input type="button" name="button" value="Click on" onclick="mul(2)">
+
+</body>
+</html>
