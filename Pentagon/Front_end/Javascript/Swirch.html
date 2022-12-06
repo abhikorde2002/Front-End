@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javaScript">
+        function myfun() {
+
+            let words;
+            let favdrink=prompt("What is your favorite drink??")
+            switch (favdrink) {
+                case "pepsi": words="Taste the thunder"
+                    break;
+                
+                case "coke": words="Things go better with coke"
+                   break;
+
+                case "sprite":words="Sprite kudiri , chill madi"
+                   break;
+        
+                default:words="Better switch to hot drink dude!!!"
+              
+            }
+            document.getElementById('demo').innerHTML=words;
+        }
+
+    </script>
+    <input type="button" name="button" value="Click on" onclick="myfun()">
+    <p id="demo"></p>
+</body>
+</html>
