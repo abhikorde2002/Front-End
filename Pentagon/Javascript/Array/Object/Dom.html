@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log(document.location)
+        // document.getElementById('click').style.border='2px solid blue'
+        function abc(){
+            document.write("Hello every one")
+        }
+        //Whene we are targting element from id
+        let elem=document.getElementById('click')
+        console.log(elem);
+        //we get collection class
+        let elemClass=document.getElementsByClassName("first")
+        console.log(elemClass)
+        
+        //we can change colour
+         elemClass[0].style.background="Yellow";
+    </script>
+   
+   
+
+   <div class="container">
+    <input id='click' type="button" value="Click on " onclick="abc()">
+    </div>
+    <div class="first">
+        <p>This is paragraph</p>
+    </div>
+</body>
+</html>
